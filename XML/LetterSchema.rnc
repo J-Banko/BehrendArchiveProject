@@ -1,0 +1,14 @@
+start = letter
+letter = element letter {page+}
+    page = element page {headLine?, p+}
+        headLine = element headLine {mixed{(location, time, date)}}
+        p = element p {mixed{(imp)*}}
+            imp = element imp {type, corr?, text}
+                type = attribute type {"typo" | "miss" | "stray"}
+                corr = attribute corr {text}
+        
+location = element location {category, spec, text} 
+    category = attribute category {"ship" | text}
+    spec = attribute spec {text}
+time = element time {text}
+date = element date {text}
