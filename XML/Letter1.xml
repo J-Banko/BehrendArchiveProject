@@ -1,60 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--JJB: Here are some notes as to my initial markup in regards to elements and attributes.
-- HeadLine contains all the psuedo meta data about where they are and when they are there at the top of each letter.
-- location is just any locaion
-    - type is meant to be the type of location so for example the first instance is "ship" because they are on the Queen Elizabeth
-    - spec is short for specific which is to give more specific context so for the first instance it is "Atlantic" because they are in the atlantic ocean. If she wrote that they were still moored in New York for example then "Atlantic" would be "NewYork"
-- imp is short for imperfection
-    - type is the type of imperfection, seems like the most common wil by typos 
-        - typo is fortypos
-        - miss is for missing letters
-        - stray is for stray characters
-    - corr is short for correction, basically what the correct version of the marked word should be.
--->
-<root>
-    <headLine>Departure. <location type="ship" spec="Atlantic">On Queen Elizabeth</location>. At
+
+<?xml-model href="../XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <page>
+        <headLine>Departure. <location category="ship" spec="Atlantic">On Queen Elizabeth</location>. At
             <time>Noon</time>, <date>July 16, 1955</date>.</headLine>
-    <p>Harriet had stayed in Greenwich over night so went in town with us. <imp type="typo"
+        <p>Harriet had stayed in Greenwich over night so went in town with us. <imp type="typo"
             corr="We">Wm</imp> drove the station wagon with our bags.Very <imp type="stray"
-            corr="cleverly">cleverlym</imp> selected as we had two <imp type="typo" corr="suit"
-            >suiuit</imp> cases each and a "bottle bag and the typewriter-plus a very unhealthy
-        looking green duffle bag ( reserved for purchases. THIS folded up on thebbottem of a suit
-        case for future use! </p>
-    <p>State room gay with flowers and champagne. We had a send off party. Billy was <imp
+                corr="cleverly">cleverlym</imp> selected as we had two <imp type="typo" corr="suit"
+                    >suiuit</imp> cases each and a "bottle bag and the typewriter-plus a very unhealthy
+            looking green duffle bag ( reserved for purchases. THIS folded up on thebbottem of a suit
+            case for future use! </p>
+        <p>State room gay with flowers and champagne. We had a send off party. Billy was <imp
             type="miss" corr="hiding behind">hidingbehind</imp> a curtain and was a HUGE surprise
             <imp type="stray">'</imp>
-        <imp type="typo" corr="Caryl">Carlyl</imp> had arranged it this way Gail's mother and a
-        friend- Dale and Kissy got to the dock just after 10.30 and were not allowed to come on
-        board. Too bad.</p>
-    <p>Huge ship. Like a section of the Waldorf- the Peacock Alley plus several of the dining rooms-
-        afloat Streams of PEOPLE <imp type="miss" corr="mulling">mu ing</imp> about.</p>
-    <p>We had a table in the dining room with 5 other <imp type="miss" corr="female">femal</imp>
-        ladies. Thought it would divert us. The one man looked us over and next meal he wasn't
-        there. So we <imp type="typo" corr="drew">dr4ew</imp>
-        <imp type="stray">ano</imp> another lady. It all proved to be amusing. We exchange addresses
-        and <imp type="miss">werephotographed</imp> to-gether.</p>
-    <p>Voyage very smooth all way over. We took in the movies and pools. I won a few dollars on a
-        pool.</p>
-    <p>A Mr and Mrs Andeson, very nice friends of H. and the Caryls asked us for cocktails one
-        evening. Then there were the parties of the Captain and the Purser Also Esther Boyer was on
-        board with a party of eight in cabin class, she was to steer about over Europe. She came up
-        and had tea with us one day.</p>
-    <p>The Captain and Purser both were on the Franconia about<imp type="miss"> </imp> years ago- as
-        under officers- on a world cruise <imp type="typo" corr="we">wer</imp> were on. Both
-        extremely cordial.</p>
-    <p>Took train around noon for Paris. Hot as blazes. and stuffy besides. Had lunch en route.
-        Quite good.</p>
-    <p>Paris and piled our belongings into a cab and landed at Le Br istol- a rather smallish hotel
-        were diplomats go- white marble and mirrors. We had an oval white <imp type="typo"
-            corr="panelled">panneled</imp> bedroom and an <imp type="typo" corr="adjoining"
-            >adjo9ning</imp> white panelled round sitting room. (which we didn't need and later gave
-        up.)</p>
-    <p>Very weary and after some refreshing tub baths went over to the Crenailliere(nearby) where we
-        had a very delicious dinner.</p>
-
-
-
-
-
-
-</root>
+            <imp type="typo" corr="Caryl">Carlyl</imp> had arranged it this way Gail's mother and a
+            friend- Dale and Kissy got to the dock just after 10.30 and were not allowed to come on
+            board. Too bad.</p>
+        <p>Huge ship. Like a section of the Waldorf- the Peacock Alley plus several of the dining rooms-
+            afloat Streams of PEOPLE <imp type="miss" corr="mulling">mu ing</imp> about.</p>
+        <p>We had a table in the dining room with 5 other <imp type="miss" corr="female">femal</imp>
+            ladies. Thought it would divert us. The one man looked us over and next meal he wasn't
+            there. So we <imp type="typo" corr="drew">dr4ew</imp>
+            <imp type="stray">ano</imp> another lady. It all proved to be amusing. We exchange addresses
+            and <imp type="miss">werephotographed</imp> to-gether.</p>
+        <p>Voyage very smooth all way over. We took in the movies and pools. I won a few dollars on a
+            pool.</p>
+        <p>A Mr and Mrs Andeson, very nice friends of H. and the Caryls asked us for cocktails one
+            evening. Then there were the parties of the Captain and the Purser Also Esther Boyer was on
+            board with a party of eight in cabin class, she was to steer about over Europe. She came up
+            and had tea with us one day.</p>
+        <p>The Captain and Purser both were on the Franconia about<imp type="miss"> </imp> years ago- as
+            under officers- on a world cruise <imp type="typo" corr="we">wer</imp> were on. Both
+            extremely cordial.</p>
+        <p>Took train around noon for Paris. Hot as blazes. and stuffy besides. Had lunch en route.
+            Quite good.</p>
+        <p>Paris and piled our belongings into a cab and landed at Le Br istol- a rather smallish hotel
+            were diplomats go- white marble and mirrors. We had an oval white <imp type="typo"
+                corr="panelled">panneled</imp> bedroom and an <imp type="typo" corr="adjoining"
+                    >adjo9ning</imp> white panelled round sitting room. (which we didn't need and later gave
+            up.)</p>
+        <p>Very weary and after some refreshing tub baths went over to the Crenailliere(nearby) where we
+            had a very delicious dinner.</p>
+    </page>
+</letter>
