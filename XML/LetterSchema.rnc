@@ -1,26 +1,18 @@
-#JJB: Here are some notes as to my initial markup in regards to elements and attributes.
-#- HeadLine contains all the psuedo meta data about where they are and when they are there at the top of each letter.
-#- location is just any locaion
-#    - category is meant to be the type of location so for example the first instance is "ship" because they are on the Queen Elizabeth
-#    - spec is short for specific which is to give more specific context so for the first instance it is "Atlantic" because they are in the atlantic ocean. If she wrote that they were still moored in New York for example then "Atlantic" would be "NewYork"
-#- imp is short for imperfection
-#    - type is the type of imperfection, seems like the most common wil by typos 
-#        - typo is fortypos
-#        - miss is for missing letters
-#        - stray is for stray characters
-#    - corr is short for correction, basically what the correct version of the marked word should be.
+start = letter # root element
+letter = element letter {page+} 
+    page = element page {headLine?, p+} # for multi-page letters to remain in the same document
+        headLine = element headLine {mixed{(location, time, date)*}} # metadata (where & when)
+        p = element p {ln+} # paragraph
+            ln = element ln {n, indent?, mixed{(location | imp)*}} # numbered lines, mixed content. Nobody's very far with this yet other than "imperfections", but locations are definitely going to be tagged
+                n = attribute n {xsd:integer} # line number
+                indent = attribute indent {"yes" | "center"} # optional note for indent
+                imp = element imp {type, corr?, text} # imperfections
+                    type = attribute type {"typo" | "miss" | "stray"} # types of imperfections
+                    corr = attribute corr {text} # the corrected revision
 
-start = letter
-letter = element letter {page+}
-    page = element page {headLine?, p+}
-        headLine = element headLine {mixed{(location, time, date)}}
-        p = element p {mixed{(imp)*}}
-            imp = element imp {type, corr?, text}
-                type = attribute type {"typo" | "miss" | "stray"}
-                corr = attribute corr {text}
-        
+# put these down here because they're generic - could be used multiple places
 location = element location {category, spec, text} 
-    category = attribute category {"ship" | text}
+    category = attribute category {"ship" | "city" | "country" | text} # still adding specific categories as we come across them
     spec = attribute spec {text}
 time = element time {text}
 date = element date {text}
