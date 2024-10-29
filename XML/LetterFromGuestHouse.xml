@@ -1,0 +1,75 @@
+<!--Markup by Michael Simons. I got the hard different one lol.
+    I don't know if I should make this work with the LetterSchema, or make a separate schema. I think it works.
+    There is nothing else like this in the book that I noticed in looking through it so far.-->
+
+<?xml-model href="BehrendArchiveProject/XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<letter>
+    <page>
+        <headLine>MANOIR DE BÉCHERON</headLine>
+        <p>
+            <ln n="0" indent="center">Saché</ln>
+            <ln n="0" indent="center">Indre-et-Loire</ln>
+        </p>
+        <p>
+            <ln n="1" indent="yes">The Manoir de Bécheron is a private home which welcomes a few paying </ln>
+            <ln n="2">guests.  It is a rambling 15th-16th Century house situated in the peaceful </ln>
+            <ln n="3">valley of the Indre in the heart of the Chateaux de la Loire region.  The </ln>
+            <ln n="4">furniture is authentic Renaissance and 18th Century.  The Manoir has an </ln>
+            <ln n="5">air of Old World charm with modern comfort.  The cuisine is French, meals </ln>
+            <ln n="6">are 'en famille', except for breakfast, which is servedi n your room or, </ln>
+            <ln n="7">if you choose, in the gardens.</ln>
+        </p>
+        <p>
+            <ln n="8" indent="yes">You are one of us when we go visiting our French and American </ln>
+            <ln n="9">neighbors.  Among them are such famour artists as Alexander Calder, Max </ln>
+            <ln n="10">Ernst and A. Ozenfant.</ln>
+        </p>
+        <p>
+            <ln n="11" indent="yes">Bécheron is 25 kilometers from Tours, which can be reached by rail </ln>
+            <ln n="12">from <location category="city" spec="Paris, France">Paris</location> in about two and half hours.  Of course we meet you at the </ln>
+            <ln n="13">station.</ln>
+        </p>
+        <p>
+            <ln n="14" indent="yes">The rate in high-season (June 15-August 31) is $15 a day or $100 </ln>
+            <ln n="15">a week per person all inclusive (room, bath, 3 meals, wines, liqueurs, </ln>
+            <ln n="16">coffee and service).  This includes the local excursions around Bécheron </ln>
+            <ln n="17">such as Saché, Azay-le-Rideau, Tours, Langeais.  The Saché Museum now </ln>
+            <ln n="18">houses a permanent exhibit of the sculpture of my father, Jo Davidson.  </ln>
+            <ln n="19">The off-season rate (March 1-June 14; Sept. 1-October 31) is $10 a day </ln>
+            <ln n="20">or $65 a week per person.  Contrary to the usual continental practice </ln>
+            <ln n="21">there are no extra charges at Bécheron.</ln>
+        </p>
+        <p>
+            <ln n="22" indent="yes">My French wife and I have two children, Eva age 12 and Laurent who </ln>
+            <ln n="23">is 5; we can and do care for children, and you will find they are never </ln>
+            <ln n="24">underfoot.  If you should want a place where you can safely leave yours </ln>
+            <ln n="25">while touring Europe, Bécheron is the place you are looking for.  Our </ln>
+            <ln n="26">children were born in the <location category="country" spec="United States">United States</location> and speak French and English as </ln>
+            <ln n="27">of course we do.</ln>
+        </p>
+        <p>
+            <ln n="28" indent="yes">A week in Bécheron is over before you realize it!  You won't want to </ln>
+            <ln n="29">miss the thrilling sight of the illuminated chateaux; they alone are </ln>
+            <ln n="30">worth the trip.  The 'Sleeping Beauty' castle of Ussé, Azay-le-Rideau, </ln>
+            <ln n="31">famous Chenonceau and Chambord are but a few of the fabulous palaces </ln>
+            <ln n="32">which surround us.</ln>
+        </p>
+        <p>
+            <ln n="33" indent="yes">During one of your outings we will picnic in the Forêt de Loches near </ln>
+            <ln n="34">a circular 12th Century chapel, or on the banks of the Loire across from </ln>
+            <ln n="35">Mme. de Pompadour's palace at Ménars.  We will also take you to one of the </ln>
+            <ln n="36">outstanding restaurants of Tours on a picturesque medieval square.</ln>
+        </p>
+        <p>
+            <ln n="37" indent="yes">We are looking forward with pleasure to meeting you, with or without </ln>
+            <ln n="38">your children.  We'll be glad to answer any specific question you may have.  </ln>
+            <ln n="39">Write to us.</ln>
+        </p>
+        <p>
+            <ln n="40" indent="center">Cordially yours,</ln>
+            <ln n="41" indent="center"><!--Jacques Davidson signature--></ln>
+            <ln n="42" indent="center">Jacques Davidson</ln>
+        </p>
+    </page>
+</letter>
