@@ -1,10 +1,13 @@
 start = letter # root element
 letter = element letter {page+} 
     page = element page {num, headLine?, (p | drawing)*} # for multi-page letters to remain in the same document
-        num = attribute num {xsd:integer} #page number
+        num = attribute num {xsd:integer} # page number
+        
         headLine = element headLine {mixed{(location | time | date | imp)*}} # metadata (where & when)
-        p = element p {mixed{(ln | location | imp | date | person)*}} # paragraph
-            ln = element ln {n, indent?} # numbered lines, mixed content. Nobody's very far with this yet other than "imperfections", but locations are definitely going to be tagged
+        
+        # wasn't able to make "ln" elements required because sometimes they are mixed into person or location elements, so please remember to add them
+        p = element p {(mixed{(ln | imp | location | date | person)*})} # paragraphs
+            ln = element ln {n, indent?} # numbered lines
                 n = attribute n {xsd:integer} # line number
                 indent = attribute indent {"yes" | "center"} # optional note for indent
             imp = element imp {type, corr?, (text | imp | ln)*} # imperfections
@@ -12,7 +15,7 @@ letter = element letter {page+}
                 corr = attribute corr {text} # the corrected revision
         drawing = element drawing {mixed{(location | imp)*}}
         
-# put these down here because they're generic - could be used multiple places
+# Generic elements used multiple places
 location = element location {category, spec, (text | imp | ln)*} 
     category = attribute category {"ship" | "city" | "country" | "department" | "commune" | text} # still adding specific categories as we come across them
     spec = attribute spec {text}
