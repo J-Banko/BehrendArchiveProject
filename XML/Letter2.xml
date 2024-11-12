@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Transcription and markup by Ashlynn Allgeier-->
+<!--Corrections by Michael Simons-->
+<?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <letter>
-    
-    <body><ln num="0"><headLine><location>Paris</location> <date>July 19th. <imp type="writing">1955</imp></date> - </headLine></ln>
+    <page num="1">
+        <headLine><location category="city" spec="Paris, France">Paris</location> <date>July 19th. <imp type="writing">1955</imp></date> - </headLine>
     <p>
-        <ln num="1">Took a motor <imp type="typo" corr="from a">froma</imp> travel agency- after breakfast in</ln>
-        <ln num="2">our fancy round sitting room. Drove all around Paris</ln>
-        <ln num="3">the driver named Harvey had a daughter named</ln>
-        <ln num="4">at Waycross Georgia. Went to Lubin's for <imp type="typo" corr="perfume">perfrume</imp></ln>
-        <ln num="5">(had the pink flannel iaffair that Harriet had</ln>
-        <ln num="6">given me- REsented') W alked around the circle-Place</ln>
-        <ln num="7">de Ven6ome To Caron, The Ritz Hotel, and a jewellers</ln>
-        <ln num="8">where I was intregue<imp type="writing">s</imp> by a <imp type="writing">J</imp>ewelled bird. But did NOT</ln>
-        <ln num="9">get it! To a very nice resturant in the Bois for lunch</ln>
-        <ln num="10">Le Pre Catalan. Went thento both sides of the Siens<imp type="writing">e</imp></ln>
-        <ln num="11">and got some little prints of Paris. R.R.st<imp type="writing">a</imp>tion and</ln>
-        <ln num="12">Tourist Agency<imp type="writing">\</imp>reg. tickets. We had our evening meal</ln>
-        <ln num="13">at the Bristol and then set out for the Casion deParis.</ln>
-        <ln num="14">Very amusing show- we stayed thro<imp type="writing">'</imp> <imp type="underline">half</imp> of it but felt</ln>
-        <ln num="15">we needed <imp type="underline">sleep</imp>. Gail got a cab by her shrill <imp type="underline">whistle</imp>.'</ln>
+        <ln n="1"/>Took a motor <imp type="typo" corr="from a">froma</imp> travel agency- after breakfast in
+        <ln n="2"/>our fancy round sitting room. Drove all around Paris
+        <ln n="3"/>the driver named Harvey had a daughter named
+        <ln n="4"/>at Waycross Georgia. Went to Lubin's for <imp type="typo" corr="perfume">perfrume</imp>
+        <ln n="5"/>(had the pink flannel iaffair that Harriet had
+        <ln n="6"/>given me- REsented') W alked around the circle-Place
+        <ln n="7"/>de Ven6ome To Caron, The Ritz Hotel, and a jewellers
+        <ln n="8"/>where I was intregue<imp type="writing">s</imp> by a <imp type="writing">J</imp>ewelled bird. But did NOT
+        <ln n="9"/>get it! To a very nice resturant in the Bois for lunch
+        <ln n="10"/>Le Pre Catalan. Went thento both sides of the Siens<imp type="writing">e</imp>
+        <ln n="11"/>and got some little prints of Paris. R.R.st<imp type="writing">a</imp>tion and
+        <ln n="12"/>Tourist Agency<imp type="writing">\</imp>reg. tickets. We had our evening meal
+        <ln n="13"/>at the Bristol and then set out for the Casion deParis.
+        <ln n="14"/>Very amusing show- we stayed thro<imp type="writing">'</imp> <imp type="underline">half</imp> of it but felt
+        <ln n="15"/>we needed <imp type="underline">sleep</imp>. Gail got a cab by her shrill <imp type="underline">whistle</imp>.'
     </p>
     
-    <drawing></drawing>
+    <drawing/>
     
-    
-    
-    </body>
-    
-    
-    
+    </page>
+      
 </letter>
