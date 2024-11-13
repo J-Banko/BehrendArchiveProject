@@ -11,7 +11,7 @@ letter = element letter {page+}
                 n = attribute n {xsd:integer} # line number
                 indent = attribute indent {"yes" | "center"} # optional note for indent
             imp = element imp {type, corr?, (text | imp | ln)*} # imperfections
-                type = attribute type {"typo" | "missing" | "stray" | "slash" | "writing" | "underline" | "crossout"} # types of imperfections
+                type = attribute type {"typo" | "missing" | "spelling" | "stray" | "slash" | "writing" | "underline" | "crossout" | "properEnglish" } # types of imperfections
                 corr = attribute corr {text} # the corrected revision
         drawing = element drawing {mixed{(location | imp)*}}
         
