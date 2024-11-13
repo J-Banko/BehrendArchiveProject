@@ -64,20 +64,20 @@
             <ln n="32"/>cruise <imp type="typo" corr="we">wer </imp> were on. Both extremely cordial.
         </p>
         <p>
-            <ln n="33" indent="yes"/>Took train around noon for Paris. Hot as blazes. 
-            <ln n="34"/>and stuffy besides. Had lunch en route.Quite good.
+            <ln n="33" indent="yes"/>Took train around noon for <location category="city" spec="Paris, France">Paris</location>. Hot as blazes. 
+            <ln n="34"/>and stuffy besides. Had lunch en route<imp type="missing" corr=". ">.</imp>Quite good.
         </p>
         <p>
-            <ln n="35" indent="yes"/>Paris and piled our belongings into a cab and 
-            <ln n="36"/>landed at Le Br istol- a rather smallish hotel were 
+            <ln n="35" indent="yes"/>Pari<imp type="writing" corr="s">d</imp> and piled our belongings into a cab and 
+            <ln n="36"/>landed at <location category="hotel" spec="Hotel in Paris, France">Le <imp type="typo" corr="Bristol">Br istol</imp></location>- a rather smallish hotel <imp type="spelling" corr="where">were</imp> 
             <ln n="37"/>diplomats go- white marble and mirrors. We had an oval 
-            <ln n="38"/>white <imp type="typo" corr="panelled">panneled</imp> bedroom and an <imp type="typo" corr="adjoining">adjo9ning</imp> white panelled 
+            <ln n="38"/>white <imp type="spelling" corr="panelled">panneled</imp> bedroom and an <imp type="typo" corr="adjoining">adjo9ning</imp> white panelled 
             <ln n="39"/>round sitting room. (which we didn't need and later gave
             <ln n="40"/>up.)
         </p>
         <p>
             <ln n="41" indent="yes"/>Very weary and after some refreshing 
-            <ln n="42"/>tub baths went over to the Crenailliere(nearby) where 
+            <ln n="42"/>tub baths went over to the <location category="restaurant" spec="">Crenailliere</location>(nearby) where 
             <ln n="43"/>we had a very delicious dinner.
         </p>
     </page>
