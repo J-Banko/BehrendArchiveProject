@@ -11,32 +11,32 @@
         - stray is for stray characters
     - corr is short for correction, basically what the correct version of the marked word should be.-->
 
-<!--Corrections by Michael Simons-->
+<!--Corrections and markup by Michael Simons-->
 <?xml-model href="../XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
     <page num="1">
         <headLine>Departure.<location category="ship" spec="Atlantic">On Queen Elizabeth</location>. At <time>Noon</time>, <date>July 1<imp type="crossout" corr="3">8</imp>, 1<imp type="crossout">9</imp>55</date>.</headLine>
         
         <p>
-            <ln n="1"/>Harriet had stayed in Greenwich over night so went in 
+            <ln n="1"/><person>Harriet</person> had stayed in <location category="borough" spec="London, England">Greenwich</location> over night so went in 
             <ln n="2"/>town with us. <imp type="typo" corr="We">Wm</imp> drove the station wagon with our 
             <ln n="3"/>bags.Very <imp type="stray" corr="cleverly">cleverlym</imp> selected as we had two <imp type="typo" corr="suit">suiuit</imp> 
-            <ln n="4"/>cases each and a "bottle bag and the typewriter-plus 
+            <ln n="4"/>cases each and a <imp type="stray" corr=" ">"</imp>bottle bag and the typewriter-plus 
             <ln n="5"/>a very unhealthy looking green duffle bag (reserved for 
-            <ln n="6"/>purchases. THIS folded up on thebbottem of a suit case 
+            <ln n="6"/>purchases. THIS folded up on the<imp type="stray" corr=" ">b</imp>bottem of a suit case 
             <ln n="7"/>for future use!
         </p>
         <p>
             <ln n="8" indent="yes"/>State room gay with flowers and champagne. We had 
-            <ln n="9"/>a send off party. Billy was hiding behind a curtain 
-            <ln n="10"/>and was a HUGE surprise <imp type="stray">'</imp> <imp type="typo" corr="Caryl">Carlyl</imp> had arranged it this way 
-            <ln n="11"/>Gail's mother and a friend- Dale and Kissy got to the 
+            <ln n="9"/>a send off party. <person>Billy</person> was hiding behind a curtain 
+            <ln n="10"/>and was a HUGE surprise <imp type="stray" corr=" ">'</imp> <person><imp type="typo" corr="Caryl">Carlyl</imp></person> had arranged it this way 
+            <ln n="11"/><person>Gail's mother</person> and a friend- <person>Dale</person> and <person>Kissy</person> got to the 
             <ln n="12"/>dock just after 10.30 and were not allowed to come on 
             <ln n="13"/>board. Too bad.
         </p>
         <p>
-            <ln n="14" indent="yes"/>Huge ship. Like a section of the Waldorf- the 
-            <ln n="15"/>Peacock Alley plus several of the dining rooms- afloat 
+            <ln n="14" indent="yes"/>Huge ship. Like a section of the <location category="hotel" spec="">Waldorf</location>- the 
+            <ln n="15"/><location category="hotel" spec="signature part of Waldorf Astoria hotel">Peacock Alley</location> plus several of the dining rooms- afloat 
             <ln n="16"/>Streams of PEOPLE <imp type="missing" corr="mulling">mu ing</imp> about.
         </p>
         <p>
