@@ -1,12 +1,47 @@
 body {
-  background-image: url("Images/SiteBackground.jpg");
-  
+    background-image: url("Images/SiteBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
     font-size: 40px;
 }
+/* Images CSS */
 
+.image-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 9px;
+}
+
+.image-container figure {
+    width: 48%;
+    box-sizing: border-box;
+    float: left;
+    margin: 1%;
+    color: white;
+    font-size: 50px;
+    text-shadow: -1px 1px 0 #000, 
+1px 1px 0 #000, 
+1px -1px 0 #000, 
+-1px -1px 0 #000;
+}
+
+.image-container img {
+    width: 450px;
+    height: 800px;
+    display: block;
+    border: solid black;
+}
+
+.image-container figcaption {
+    text-align: left;
+    margin-top: 5px;
+}
+
+/* -------------------------------------------------------------------------------------------- */
 
 /* Nav Bar CSS */
 
