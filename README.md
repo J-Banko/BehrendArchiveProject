@@ -1,2 +1,2 @@
-# BehrendArchiveProject
-Penn State Behrend FA24 DIGIT 110 Semester project
+# Welcome to our Behrend Archive Project for DIGIT 110!
+The focus of this project is to preserve Mary Behrend's travel book and analyze the people and places she talked about in her journal entries. This section of the project (Fall 2024) includes content from the first few stops in her travels: France & Belgium.
