@@ -60,10 +60,14 @@ h2 {
 
 /* Nav Bar CSS */
 
+/* Colors to be changed:
+ * Nav color: #800080
+ * Hover color: #702963                      */
+
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #b4b8c5;
+    background-color: #FFFF8F;
     font-family: Arial;
     border: solid;
 }
@@ -99,14 +103,14 @@ h2 {
 /* background color on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #6c757d;
+    background-color: #FFEA00;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #6c757d;
+    background-color: #FFFF8F;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -122,9 +126,9 @@ h2 {
     text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #495057;
+    background-color: #FFEA00;
 }
 
 /* Show the dropdown menu on hover */
