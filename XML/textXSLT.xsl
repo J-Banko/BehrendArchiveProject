@@ -27,8 +27,10 @@
         </p>
     </xsl:template>
     <xsl:template match="ln">
-        <br id="ln-{count(preceding::ln) + 1}" /> 
-        <span class="lineNum"></span>
+        <br id="ln-{count(preceding::ln) + 1}" />
+        <span class="lineNum">
+            <xsl:text> </xsl:text>
+        </span>
     </xsl:template>
     
     
