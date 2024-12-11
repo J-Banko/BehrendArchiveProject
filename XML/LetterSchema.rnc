@@ -27,11 +27,12 @@ letter = element letter {page+}
         drawing = element drawing {mixed{(location | imp)*}}
         
 # Generic elements used multiple places
-location = element location {category, spec, (text | imp | ln)*} 
+location = element location {loc, category?, desc?, (text | imp | ln)*} 
+    loc = attribute loc {text}
     category = attribute category {"ship" | "city" | "country" | "department" | "commune" | text} # still adding specific categories as we come across them
-    spec = attribute spec {text}
+    desc = attribute desc {text}
 time = element time {(text | imp | ln)*}
 date = element date {when, (text | imp | ln)*}
-    when = attribute when {xsd:date}
+    when = attribute when {xsd:date | xsd:gYear | xsd:gMonthDay}
 person = element person {note?, (text | imp | ln)*}
     note = attribute note {text}
