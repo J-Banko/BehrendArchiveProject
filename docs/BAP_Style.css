@@ -11,12 +11,17 @@ body {
 
 h1 {
     font-size: 40px;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+text-align: center;
 }
 h2 {
 font-family: 'Special Elite', cursive;
     text-align:center;
     font-size: 60px;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
 }
+
+h3{text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;}
 
 code { /* needs help */
     font-family: 'Monaco', monospace;
@@ -47,6 +52,16 @@ pre {
     box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
     max-width: 800px;
 }
+
+.home{
+    display: flex;
+    margin: 30px;
+    padding: 9px;
+    background-color: rgba(255, 248, 248, 0.8);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    border-radius: 10px;
+}
 /* ------------------------------------------------------------------------------------------ */
 /* Read View CSS */
 
@@ -61,6 +76,7 @@ pre {
     background-color: rgba(255, 248, 248, 0.8);
     box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
     flex-direction: column;
+    border-radius: 10px;
 }
 /* ------------------------------------------------------------------------------------------ */
 /* Gallery CSS */

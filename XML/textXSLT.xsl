@@ -15,7 +15,7 @@
                 </ul>  
             </li>
             <li>
-                <strong>Summary:</strong>
+                <strong>Summary: </strong>
                 <xsl:apply-templates select="summary" />
             </li>
         </ul>
