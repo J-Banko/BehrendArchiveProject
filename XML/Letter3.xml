@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Markup by Michael Simons-->
 <?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <meta>
