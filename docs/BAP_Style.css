@@ -44,12 +44,17 @@ pre {
 /* ------------------------------------------------------------------------------------------ */
 /* Read View CSS */
 
+.transcript {
+    margin-top: 20px; /* Adds space between metadata and transcript */
+    padding: 10px;
+}
 .letterText {
     display: flex;
     margin: 30px;
     padding: 9px;
     background-color: rgba(255, 248, 248, 0.8);
     box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
 }
 /* ------------------------------------------------------------------------------------------ */
 /* Gallery CSS */
