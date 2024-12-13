@@ -90,16 +90,13 @@ pre {
 
 /* Nav Bar CSS */
 
-/* Colors to be changed:
- * Nav color: #800080
- * Hover color: #702963                      */
-
 /* Navbar container */
 .navbar {
     overflow: hidden;
     background-color: #FFFF8F;
     font-family: Arial;
     border: solid;
+    max-width: 516px;
 }
 
 /* Links inside the navbar */
@@ -227,3 +224,10 @@ pre {
   margin-bottom: 20px;
 }
 
+.map {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 15px;
+    max-width: 800px;
+}
