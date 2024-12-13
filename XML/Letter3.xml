@@ -5,7 +5,7 @@
     <meta>
         <title titleID="Letter3">From Manoir de Bécheron</title>
         <source>John M. Lilley Library, Penn State Behrend Archives</source>
-        <summary>The letter, written by Jacques Davidson, describes the Manoir de Bécheron, a charming historical guest house in France offering accommodations, meals, and local excursions, while emphasizing its family-friendly environment and proximity to notable attractions in the Loire Valley.</summary>
+        <summary>This letter is a little different than the others in this collection. It was written by Jacques Davidson, describing the Manoir de Bécheron, a charming historical guest house in France offering accommodations, meals, and local excursions, while emphasizing its family-friendly environment and proximity to notable attractions in the Loire Valley.</summary>
         <editors>
             <editor>MRS</editor>
         </editors>
@@ -75,7 +75,7 @@
             </p>
             <p>
                 <ln n="40" indent="center"/>Cordially yours,
-                <ln n="41" indent="center"/><!--Jacques Davidson signature-->
+                <ln n="41" indent="center"/><imp type="writing">Jacques Davidson</imp>
                 <ln n="42" indent="center"/><person>Jacques Davidson</person>
             </p>
         </page>
