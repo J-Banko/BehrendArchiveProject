@@ -165,3 +165,65 @@ pre {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* About Section Styling */
+.about-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card {
+  background-color: rgba(232, 233, 228, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+  
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.team{
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.member-photo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+
+.member-name {
+  font-size: 2.0em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.member-description {
+  font-size: 1em;
+  color: black;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.member-description ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.member-description li {
+  margin-bottom: 20px;
+}
+
