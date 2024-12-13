@@ -59,22 +59,23 @@ letter = element letter {page+}
         headLine = element headLine {mixed{(location | time | date | imp)*}} # metadata (where & when)
         
         # wasn't able to make "ln" elements required because sometimes they are mixed into person or location elements, so please remember to add them
-        p = element p {(mixed{(ln | imp | location | date | person)*})} # paragraphs
+        p = element p {(mixed{(ln | imp | location | date | person | time)*})} # paragraphs
             ln = element ln {n, indent?} # numbered lines
                 n = attribute n {xsd:integer} # line number
                 indent = attribute indent {"yes" | "center"} # optional note for indent
             imp = element imp {type, corr?, (text | imp | ln)*} # imperfections
-                type = attribute type {"typo" | "missing" | "spelling" | "stray" | "slash" | "writing" | "underline" | "crossout" | "properEnglish" } # types of imperfections
+                type = attribute type {"typo" | "missing" | "spelling" | "cutoff" | "writing" | "overwrite" | "underline" | "crossout" | "properEnglish" | "unknown"} # types of imperfections
                 corr = attribute corr {text} # the corrected revision
         drawing = element drawing {mixed{(location | imp)*}}
         
 # Generic elements used multiple places
-location = element location {category, spec, (text | imp | ln)*} 
+location = element location {loc, category?, desc?, (text | imp | ln)*} 
+    loc = attribute loc {text}
     category = attribute category {"ship" | "city" | "country" | "department" | "commune" | text} # still adding specific categories as we come across them
-    spec = attribute spec {text}
+    desc = attribute desc {text}
 time = element time {(text | imp | ln)*}
 date = element date {when, (text | imp | ln)*}
-    when = attribute when {xsd:date}
+    when = attribute when {xsd:date | xsd:gYear | xsd:gMonthDay}
 person = element person {note?, (text | imp | ln)*}
     note = attribute note {text}</pre>
         </div>
