@@ -1,13 +1,19 @@
 body {
-    background-image: url("Images/SiteBackground.jpg");
+    background-image: url("Images/newBG.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
+
+
 
 h1 {
     font-size: 40px;
 }
 h2 {
+font-family: 'Special Elite', cursive;
     text-align:center;
     font-size: 60px;
 }
@@ -98,7 +104,7 @@ pre {
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #FFFF8F;
+    background-color: #cc9966;
     font-family: Arial;
     border: solid;
     max-width: 516px;
@@ -135,14 +141,14 @@ pre {
 /* background color on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #FFEA00;
+    background-color: #ab7a49;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #FFFF8F;
+    background-color: #cc9966;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -160,7 +166,7 @@ pre {
 
 /* background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #FFEA00;
+    background-color: #ab7a49;
 }
 
 /* Show the dropdown menu on hover */
