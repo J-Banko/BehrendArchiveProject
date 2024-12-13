@@ -5,11 +5,13 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  font-family: courier, cursive;
 }
 
 
 
 h1 {
+font-family: 'Special Elite', cursive;
     font-size: 40px;
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
 text-align: center;
