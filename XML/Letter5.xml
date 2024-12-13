@@ -1,55 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<?xml-model href="../XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<letter>
-   
-        <headLine></headLine>
-        
-        <p>
-            <ln n="1"/>THIS was a DAY! M.G. and Clyde, pLus Gail and myself all 
-            <ln n="2"/>in Mercedes' Ford, travelled over theMotor Highway. First 
-            <ln n="3"/>lookked up the Flea Market which was just next to nothing 
-            <ln n="4"/>Then on to Bruges.passing cultVAted fields and neat
-            <ln n="5"/>little houses.M. drove us all arouND by the canals 
-            <ln n="6"/>etc.A truly wonderful and unspoiled little city of the 
-            <ln n="7"/>past. Many hundreds of years old.       We had lunch on the
-            <ln n="8"/>square.Got a Victoria with a horse named Bella. A very
-            <ln n="9"/>FAT horse but she didn't have to go very fast.M.G. got 
-            <ln n="10"/>very conversational with Bella's owner.IN French. Visited 
-            <ln n="11"/>enclosure of the Beguinage & the chapel where the sisters 
-            <ln n="12"/>of the nursing order were chanting.   Being   sunday almost 
-            <ln n="13"/>all the shops were closed.  But we saw the women making
-            <ln n="14"/>the bobbin lace and bought a few pieces.   The buildingS 
-            <ln n="15"/>around the enclosure called the Beguinage were used in 
-            <ln n="16"/>olden times for|wives and widows, and women of some stand
-            <ln n="17"/>ing when the men were at war or had been killed etc. 
-             
-            
-        
-        
-        </p>
-        
-        <p>
-            <ln n="18"/>We had diner in Brussels again on our beloved 
-            <ln n="19"/>Place- the large square.   The buildings with the
-            <ln n="20"/>electric lights well placed were marvelous. We hated to 
-            <ln n="21"/>leave
-        </p>
+<xml>
+    <meta>
+        <title titleID="Letter5">To Bruges</title>
+        <date when="1955-07-24">July 24, 1955</date>
+        <source>John M. Lilley Library, Penn State Behrend Archives</source>
+        <summary>A lively journey through Bruges and Brussels is recounted, featuring scenic drives, historical landmarks, enchanting canals, lace-making artisans, and the glowing beauty of Brussels’ Grand Place at night.</summary>
+        <editors>
+            <editor>AMA</editor>
+            <editor>MRS</editor>
+        </editors>
+    </meta>
     
-    <drawing></drawing>
-        <p>
-            <ln n="22"/>The Square is a breath taking spot 
-            <ln n="23"/>The buildings surrounding it
-            <ln n="24"/>are ratheR Dutch or Flemish in sty 
-            <ln n="25"/>style. The tips of the irregulad
-            <ln n="26"/>roofs being surmounted by the
-            <ln n="27"/>embelished with gold paint|on the sills and carvings. 
-            <ln n="28"/>The llights on the buildings at night create a truly 
-            <ln n="29"/>beautiful and unreal effect.  Like part|of a fairy tale
-        </p>
+    <letter>
+        <page num="1" photo="docs/Images/Letter5.jpg">
+            <headLine><imp type="writing">Sunday. To Bruges-</imp> <imp type="unknown">____ Mercedes  _____ ______</imp></headLine>
+            
             <p>
-            <ln n="30"/>M.G. and Clyde have been with us three days and
-            <ln n="31"/>we have all,had one grand time.
-        </p>
+                <ln n="1"/>THIS was a DAY! <person>M.G.</person> and <person>Clyde</person><imp type="writing">,</imp><imp type="missing" corr=" "></imp><imp type="overwrite" corr="pl">p</imp>us <person>Gail</person> and myself all 
+                <ln n="2"/>in <person>Mercedes</person>' Ford, travelled over the<imp type="missing" corr=" "></imp>Motor H<imp type="typo" corr="i">I</imp>ghway. First 
+                <ln n="3"/><imp type="typo" corr="looked">lookked</imp> up the <location loc=" " category="store">Flea Market</location> which was just next to nothing 
+                <ln n="4"/>Then on to <location loc="Bruges, Belgium">Bruges</location><imp type="typo" corr=" ">.</imp>passing <imp type="typo" corr="cultivated">cultibvated</imp> fields and neat 
+                <ln n="5"/>little houses.<person><imp type="overwrite">M.</imp></person> drove us all <imp type="typo" corr="around">arouND</imp> by the canals 
+                <ln n="6"/>etc.<imp type="missing" corr=" "></imp>A truly wonderful and unspoiled little city of the 
+                <ln n="7"/>past.<imp type="missing" corr=" "></imp><imp type="underline">Many hundreds of years old.</imp>       We had lunch on the 
+                <ln n="8"/>square.<imp type="missing" corr=" "></imp>Got a Victoria with a horse named Bella. A very 
+                <ln n="9"/>FAT horse but she didn't have to go very fast.<imp type="missing" corr=" "></imp><person>M.G.</person> got 
+                <ln n="10"/>very conversational with <person>Bella<imp type="writing">'s</imp> owner</person>.<imp type="missing" corr=" "></imp>IN French<imp type="typo" corr=""> </imp>. Visited 
+                <ln n="11"/>enclosure of the Beguinage <imp type="writing">&amp;</imp> the chapel where the sisters 
+                <ln n="12"/>of the nursing order were chanting.   Being   <imp type="properEnglish" corr="Sunday">sunday</imp> almost 
+                <ln n="13"/>all the shops were closed.  But we saw the women making <imp type="cutoff" corr="">t</imp>
+                <ln n="14"/>the bobbin lace and bought a few pieces.  The building<imp type="writing">s</imp> <imp type="cutoff" corr="">a</imp>
+                <ln n="15"/>around the enclosure called the Beguinage were used in 
+                <ln n="16"/>olden times for<imp type="writing" corr=" ">\</imp>wives and widows<imp type="writing">,</imp> and women of some stand
+                <ln n="17"/>ing when the men were at war or had been killed etc. 
+            </p>
+            
+            <p>
+                <ln n="18" indent="yes"/>We had dinner in <location loc="Brussels, Belgium">Brussels</location> again on our beloved 
+                <ln n="19"/>Place- the large square.   The buildings with the 
+                <ln n="20"/>electric lights well placed were marvelous. We hated to 
+                <ln n="21"/>leave it.
+            </p>
         
-</letter>
+            <drawing>A profile drawing described as: The owner of "Bella" (the horse). Another smaller drawing of "fat Bella" pulling Clyde and Mrs. Behrend's family.</drawing>
+            
+            <p>
+                <ln n="22" indent="yes"/>The Square is a breath taking spot 
+                <ln n="23" indent="yes"/>The buildings surrounding it 
+                <ln n="24" indent="yes"/>are rathe<imp type="writing" corr="r">R</imp> Dutch or Flemish in <imp type="cutoff" corr="">sty</imp>
+                <ln n="25" indent="yes"/>style. The tips of the <imp type="typo" corr="irregular">irregulad</imp> 
+                <ln n="26" indent="yes"/>roofs being surmounted by the 
+                <ln n="27"/>emblems of the vari<imp type="overwrite" corr="o">u</imp>us Guilds- as many of the <imp type="spelling" corr="buildings">buildins</imp> 
+                <ln n="28"/>were old Guild Houses.<imp type="missing" corr=" "></imp>The buildings are dark with age 
+                <ln n="29"/>and carve<imp type="overwrite" corr="d">n</imp> richly and ornamented with gold. Futher 
+                <ln n="30"/>embelished with gold paint<imp type="writing" corr=" ">|</imp>on the sills and <imp type="typo" corr="carvings">carvinhgs</imp>. 
+                <ln n="31"/>The <imp type="typo" corr="lights">llights</imp> on the buildings at night create a truly 
+                <ln n="32"/>beautiful and unreal effect.  Like part<imp type="writing" corr=" ">|</imp>of a fairy tale 
+                <ln n="33"/><person>M.G.</person> and <person>Clyde</person> have been with us three days and 
+                <ln n="34"/>we have all,<imp type="missing" corr=" "></imp>had one grand time.
+            </p>
+       </page>
+    </letter>
+</xml>
