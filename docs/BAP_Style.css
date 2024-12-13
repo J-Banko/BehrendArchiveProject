@@ -119,15 +119,40 @@ pre {
 
 /* Nav Bar CSS */
 
+.logo {
+    position: absolute; /* This will position the logo relative to the page */
+    top: 10px; /* Adjust the top distance */
+    left: 10px; /* Adjust the left distance */
+    z-index: 10; /* Ensures it stays above other elements */
+ background-color: rgba(255, 255, 255, 0.7);
+ border-radius: 1.5em;
+ width: 500px;
+}
+
+/* Image size */
+.logo img {
+    width: 500px; /* Adjust logo size */
+    height: 150px; /* Adjust logo size */
+}
+
+.nav{
+    padding-bottom: 180px;
+}
+
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #cc9966;
-    font-family: Arial;
+    background-color: #ffeed6;
+    font-family: Courier;
     border: solid;
-    max-width: 516px;
+    max-width: 600px;
+    position: absolute;
+    top: 30px;
+    left: 850px;
+    
 }
 
+    
 /* Links inside the navbar */
 .navbar a {
     float: left;
