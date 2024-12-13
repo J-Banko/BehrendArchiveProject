@@ -135,8 +135,8 @@ pre {
     height: 150px; /* Adjust logo size */
 }
 
-.nav{
-    padding-bottom: 180px;
+.top{
+    padding-bottom: 150px;
 }
 
 /* Navbar container */
@@ -144,24 +144,32 @@ pre {
     overflow: hidden;
     background-color: #ffeed6;
     font-family: Courier;
-    border: solid;
     max-width: 600px;
     position: absolute;
-    top: 30px;
-    left: 850px;
-    
+    top: 50px;
+    left: 650px;
+    border: 2px solid #d4a373; /* Matches gradient tones */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Adds subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%; /* Set width to fit all links */
+    width: auto; /* Allow it to expand with content */
+    white-space: nowrap;
 }
 
     
 /* Links inside the navbar */
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
+     transition: color 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
 }
+
 
 /* The dropdown container */
 .dropdown {
@@ -179,12 +187,14 @@ pre {
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
+font-weight: bold;
 }
 
 /* background color on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
     background-color: #ab7a49;
+    
 }
 
 /* Dropdown content (hidden by default) */
