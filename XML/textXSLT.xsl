@@ -3,7 +3,9 @@
     <xsl:template match="meta">
         <h3><xsl:apply-templates select="title"/></h3>
         <ul>
-            <li><xsl:apply-templates select="date"/></li>
+            <xsl:if test="date">
+                <li><xsl:apply-templates select="date"/></li>
+            </xsl:if>
             <li><xsl:apply-templates select="source"/></li>
             <li>Editors: 
                 <ul>
@@ -11,6 +13,10 @@
                         <li><xsl:apply-templates select="current()"/></li>
                     </xsl:for-each>
                 </ul>  
+            </li>
+            <li>
+                <strong>Summary:</strong>
+                <xsl:apply-templates select="summary" />
             </li>
         </ul>
     </xsl:template>
