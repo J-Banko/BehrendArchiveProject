@@ -2,16 +2,16 @@ body {
     background-image: url("Images/newBG.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  font-family: courier, cursive;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    font-family: courier, cursive;
 }
 
 
 
 h1 {
-font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive;
     font-size: 40px;
     text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
     text-align: center;
@@ -19,13 +19,13 @@ font-family: 'Special Elite', cursive;
 }
 h2 {
     font-family: 'Special Elite', cursive;
-    text-align:center;
+    text-align: center;
     font-size: 60px;
     text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
     color: #342a1e;
 }
 
-h3{
+h3 {
     text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
     color: #342a1e;
 }
@@ -61,7 +61,7 @@ pre {
     color: #342a1e;
 }
 
-.home{
+.home {
     display: flex;
     margin: 30px;
     padding: 9px;
@@ -69,6 +69,26 @@ pre {
     box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
     flex-direction: column;
     border-radius: 10px;
+}
+
+.logo {
+    position: absolute; /* This will position the logo relative to the page */
+    top: 10px; /* Adjust the top distance */
+    left: 10px; /* Adjust the left distance */
+    z-index: 10; /* Ensures it stays above other elements */
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 1.5em;
+    width: 500px;
+}
+
+/* Image size */
+.logo img {
+    width: 500px; /* Adjust logo size */
+    height: 150px; /* Adjust logo size */
+}
+
+.top {
+    padding-bottom: 150px;
 }
 
 /* ------------------------------------------------------------------------------------------ */
@@ -89,6 +109,8 @@ pre {
     border-radius: 10px;
     color: #342a1e;
 }
+
+
 /* ------------------------------------------------------------------------------------------ */
 /* Gallery CSS */
 
@@ -98,10 +120,9 @@ pre {
     overflow: hidden;
     padding: 9px;
 }
-
-.text-box{
+.text-box {
     border-radius: 10px;
-    
+
 }
 
 .image-container figure {
@@ -112,12 +133,15 @@ pre {
     color: white;
     font-size: 50px;
     text-shadow: -1px 1px 0 #000, 
-    1px 1px 0 #000, 
-    1px -1px 0 #000, 
-    -1px -1px 0 #000;
+1px 1px 0 #000, 
+1px -1px 0 #000, 
+-1px -1px 0 #000;
 }
 
 .image-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 450px;
     height: 800px;
     display: block;
@@ -125,6 +149,54 @@ pre {
 }
 
 .image-container figcaption {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    color: #342a1e;
+    top: 15px;
+
+}
+/* Letter 4 specific */
+/* Layout container for letter 4 images and text */
+.letter4-image-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 9px;
+    overflow: hidden;
+}
+
+
+.letter4-image-container .image-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 48%;
+}
+
+/* style for the images */
+.letter4-image-container img {
+    width: 100%;
+    height: auto;
+    border: solid black;
+}
+
+/* right side text */
+.letter4-letterText {
+    flex: 1;
+    padding: 10px;
+    background-color: rgba(255, 248, 248, 0.8);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #342a1e;
+    margin-left: 20px;
+}
+.letter4-image-container figcaption {
     text-align: left;
     margin-top: 5px;
     font-family: 'Special Elite', cursive;
@@ -132,191 +204,158 @@ pre {
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     color: #342a1e;
     top: 15px;
-    
 }
 
 /* -------------------------------------------------------------------------------------------- */
 
 /* Nav Bar CSS */
 
-.logo {
-    position: absolute; /* This will position the logo relative to the page */
-    top: 10px; /* Adjust the top distance */
-    left: 10px; /* Adjust the left distance */
-    z-index: 10; /* Ensures it stays above other elements */
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 1.5em;
-    width: 500px;
-}
-
-/* Image size */
-.logo img {
-    width: 500px; /* Adjust logo size */
-    height: 150px; /* Adjust logo size */
-}
-
-.top{
-    padding-bottom: 150px;
-}
-
 /* Navbar container */
 .navbar {
-    overflow: hidden;
     background-color: #ffeed6;
     font-family: Courier;
-    max-width: 600px;
     position: absolute;
     top: 50px;
     left: 650px;
-    border: 2px solid #d4a373; /* Matches gradient tones */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Adds subtle shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 100%; /* Set width to fit all links */
-    width: auto; /* Allow it to expand with content */
-    display: flex;
+    border: 2px solid #d4a373;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+    display: flex; /* Ensures items stay horizontal */
+    align-items: center;
+    padding: 0;
+    width: auto; /* Automatically size based on content */
 }
 
-    
 /* Links inside the navbar */
 .navbar a {
-    float: left;
     font-size: 18px;
     color: #342a1e;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-     transition: color 0.3s ease, background-color 0.3s ease;
     font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
-/* The dropdown container */
+/* Dropdown container */
 .dropdown {
-    float: left;
-    overflow: hidden;
     position: relative;
-    display: inline-block;
 }
+
 
 /* Dropdown button */
 .dropdown .dropbtn {
+    font-family: inherit; /* Inherit font-family from the parent */
     font-size: 18px;
-    border: none;
-    outline: solid;
     color: #342a1e;
-    padding: 14px 16px;
+    padding: 14px 20px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
     font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* background color on hover */
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-    background-color: #ab7a49;
-    float: left;
-    font-size: 18px;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    
-}
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-    display: none;
+    display: none; /* Hidden initially */
     position: absolute;
+    top: 100%; /* Aligns below the dropdown button */
+    left: 0;
     background-color: #cc9966;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    padding: 10px;
-    
-    
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensures it appears on top */
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    float: none;
     color: #342a1e;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: block; /* Display links vertically */
     text-align: left;
+    transition: background-color 0.3s ease;
 }
 
-/* background color to dropdown links on hover */
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown */
+}
+
+/* Hover effects */
+.navbar a:hover,
+.dropdown:hover .dropbtn,
 .dropdown-content a:hover {
     background-color: #ab7a49;
+    color: #fff;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
 
 /* About Section Styling */
 .about-section {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 .card {
-  background-color: rgba(232, 219, 200, 0.9);
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 350px;
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s ease;
-  margin-bottom: 20px;
-  
+    background-color: rgba(232, 219, 200, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+
 }
 
 .card:hover {
-  transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
-.team{
+.team {
     margin-bottom: 50px;
     font-size: 1.5em;
     text-align: center;
 }
 
 .member-photo {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50%;
-  
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+
 }
 
 .member-name {
-  font-size: 2.0em;
-  margin-bottom: 10px;
-  color: #342a1e;
-  text-decoration: none;
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    color: #342a1e;
+    text-decoration: none;
 }
 
 .member-description {
-  font-size: 1em;
-  color: #342a1e;
-  margin-bottom: 15px;
-  text-align: left;
+    font-size: 1em;
+    color: #342a1e;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 .member-description ul {
-  list-style: none;
-  padding-left: 20px;
+    list-style: none;
+    padding-left: 20px;
 }
 
 .member-description li {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .map {
@@ -327,17 +366,17 @@ pre {
     max-width: 1000px;
     height: 600px;
     flex-direction: column;
-    background-color: #ffeed6; 
-    border: 2px solid #342a1e; 
-    border-radius: 10px; 
+    background-color: #ffeed6;
+    border: 2px solid #342a1e;
+    border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .map iframe {
-    width: 100%; 
-    height: 100%; 
-    border: none; 
-    border: none; 
+    width: 100%;
+    height: 100%;
+    border: none;
+    border: none;
     border-radius: 8px;
 }
 
@@ -349,21 +388,21 @@ pre {
     padding: 10px;
     font-family: 'Special Elite', cursive;
     font-size: 16px;
-    border-radius: 10px; 
+    border-radius: 10px;
     position: absolute;
-    width:100%;
+    width: 100%;
     left: 50%; /* Moves the footer to the middle of the screen */
     transform: translateX(-50%); /* Centers it horizontally */
-    
-    
-    
+
+
+
 }
 
 .footer a {
     color: #342a1e;
     text-decoration: underline;
     font-weight: bold;
-    
+
 }
 
 .footer a:hover {
