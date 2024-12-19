@@ -462,3 +462,11 @@ pre {
     left: 40px;
     background: #4caf50;
 }
+
+a{
+   color: #342a1e;
+}
+
+a:hover{
+    color: #d4a373;
+}
