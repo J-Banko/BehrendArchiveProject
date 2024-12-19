@@ -2,13 +2,13 @@
 <?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <meta>
-         <title titleID="Letter6"></title>
-         <source>John M. Lilley Library, Penn State Behrend Archives</source>
-         <summary></summary>
-         <editors>
-             <editor>AMA</editor>
-             <editor>MRS</editor>
-         </editors>
+        <title titleID="Letter6"></title>
+        <source>John M. Lilley Library, Penn State Behrend Archives</source>
+        <summary></summary>
+        <editors>
+            <editor>AMA</editor>
+            <editor>MRS</editor>
+        </editors>
     </meta>
  
     <letter>
