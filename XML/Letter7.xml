@@ -2,9 +2,10 @@
 <?xml-model href="../XML/LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <meta>
-        <title titleID="Letter7"></title>
+        <title titleID="Letter7">In Denmark</title>
+        <date when="1955-07-26">July 26th-27th, 1955</date>
         <source>John M. Lilley Library, Penn State Behrend Archives</source>
-        <summary></summary>
+        <summary>This letter begins with a handwritten portion that was illegible to us, but we hope to work on transcribing it in the future. "Denmark" is legibly written in the margin. The rest of the letter describes a lively day of entertainment, shopping for unique crafts, and enjoying a fine dinner, capped off with a circus show featuring elephants and acrobats.</summary>
         <editors>
             <editor>AMA</editor>
             <editor>MRS</editor>
@@ -13,7 +14,7 @@
     
     <letter>
         <page num="1" photo="/docs/Images/Letter7">
-            <headLine></headLine>
+            <headLine><imp type="writing">Denmark July 26th</imp></headLine>
             <p>
                 <ln n="1"/>
                 <ln n="2"/> 
@@ -28,30 +29,30 @@
                 <ln n="11"/>
                 <ln n="12"/>
                 <ln n="13"/>          Very gay place. Music and all sorts of 
-                <ln n="14"/>PLACES to spend cash for fun. Gail shot bears abd bul
-                <ln n="15"/>eyes and smashed up plates. It /is truly a nice place.
-                <ln n="16"/>Everyone very orderly and enjoying i  t.
+                <ln n="14"/><imp type="overwrite" corr="places to">PLACES to</imp> spend cash for fun. <person>Gail</person> shot bears <imp type="typo" corr="and">abd</imp> bul<imp type="missing" corr="ls"></imp>
+                <ln n="15"/>eyes and smashed up plates. It <imp type="crossout" corr="">i</imp>is truly a nice place. 
+                <ln n="16"/>Everyone very orderly and enjoying i<imp type="typo" corr="">  </imp>t.
             </p>
             
             <p>
-                <ln n="17"/>July 27th.
-                <ln n="18"/>Went to the TRAvel Agency. Went over to the Jangleterre (no rooms) 
-                <ln n="19"/>Hotel, and to an art craft place next to it where
-                <ln n="20"/>I got some wonderful things! Lions made of rope, lunch
-                <ln n="21"/>doilies with designs of all nations. Things for Kissie,
-                <ln n="22"/>a beaded bracelet,Gloves, etc.Had luncg the D'andDleT
-                <ln n="23"/>terre.Couldn't get rooms there- all full.Went to the
-                <ln n="24"/>Permente- a place thet shows all sorts of things to buy
-                <ln n="25"/>Got a skirt, linen table cloth, scarves,fish doilies,
-                <ln n="26"/>At 4.30 we went on the city tour In a bus. all around.
-                <ln n="27"/>Back to hotel- flowers from Mr and mrs Dessau. They
-                <ln n="28"/>had called. Went to the Coc D'or and had a very fine
-                <ln n="29"/>dinner. ON way back to hotel passed the Circus Schuman
-                <ln n="30"/>WE couldn't get in- laws that prevent when it is full
-                <ln n="31"/>up- but a very nice attentant let us stand upstairs
-                <ln n="32"/>behind the rows of people. So we saw a lot of itnand
-                <ln n="33"/>it wwas a grand show. Elephants, acrobats and all
-                <ln n="34"/>sorts of acts.  W
+                <ln n="17" indent="yes"/><date when="1955-07-27">July 27th</date>.
+                <ln n="18"/>Went to the <imp type="overwrite" corr="Tra">TRA</imp>vel Agency. <imp type="writing">W</imp>ent over to the <location loc="Hotel d'Angleterre, Copenhagen, Denmark"><imp type="overwrite" corr="d'">D8</imp>angleterr<imp type="writing">e</imp> <imp type="writing">(No Rooms)</imp> 
+                <ln n="19"/>Hotel</location>, and to an art craft place next to it where 
+                <ln n="20"/>I got some wonderful things! Lions made of rope, lunch 
+                <ln n="21"/>doilies with designs of all nations. Things for <person>Kissie</person>, 
+                <ln n="22"/>a beaded bracelet,<imp type="missing" corr=" "></imp>Gloves, etc.<imp type="missing" corr=" "></imp>Had lunch the <imp type="typo" corr="d'Angle">D'andDleT</imp> 
+                <ln n="23"/>terre.<imp type="missing" corr=" "></imp>Couldn't get rooms there- all full.<imp type="missing" corr=" "></imp>Went to the 
+                <ln n="24"/>Permente- a place thet shows all sorts of things to buy 
+                <ln n="25"/>Got a skirt, linen table cloth, scarves,<imp type="missing" corr=" "></imp>fish doilies, 
+                <ln n="26"/>At 4.30 we went on the <imp type="underline">city</imp> <imp type="underline">tour</imp> In a <imp type="underline">bus</imp>. all around. 
+                <ln n="27"/>Ba<imp type="overwrite">ck</imp> to hotel- flowers from <person>Mr and <imp type="spelling" corr="Mrs">mrs</imp> Dessau</person>. They 
+                <ln n="28"/>had called. Went to the <location loc="" category="restaurant"><imp type="spelling" corr="Coq D'Or">Coc D'or</imp></location> and had <imp type="writing">a</imp> <imp type="underline">ve<imp type="overwrite">ry</imp></imp> <imp type="underline">fine</imp> 
+                <ln n="29"/>dinner. O<imp type="overwrite" corr="n">N</imp> way back to hotel passed the Circus <imp type="writing">Sc</imp>human 
+                <ln n="30"/>WE couldn't get in- laws that prevent when it is full 
+                <ln n="31"/>up- but a <imp type="underline">very</imp> nice <imp type="spelling" corr="attendant">attentant</imp> let us stand upstairs 
+                <ln n="32"/>behin<imp type="overwrite" corr="d">f</imp> the rows of people. So we saw a lot of it<imp type="typo" corr=" ">n</imp>and 
+                <ln n="33"/>it <imp type="typo" corr="">w</imp>was a grand show. <imp type="writing">E</imp>lephants, acrobats and all 
+                <ln n="34"/>sorts of acts. <imp type="writing" corr="">W</imp>
                 <ln n="35"/>
             </p>
         </page>

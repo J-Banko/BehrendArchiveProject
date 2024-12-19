@@ -2,7 +2,7 @@
 <?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
    <meta>
-       <title titleID="Letter2">Paris</title>
+       <title titleID="Letter2">In Paris</title>
        <date when="1955-07-19">July 19, 1955</date>
        <source>John M. Lilley Library, Penn State Behrend Archives</source>
        <summary>This letter recounts Mary Behrend's day in Paris on July 19, 1955, describing visits to landmarks, stores, and restaurants, along with personal observations and activities such as exploring the city by car, shopping, and attending an evening show.</summary>

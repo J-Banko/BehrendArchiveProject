@@ -2,7 +2,7 @@
 <?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
    <meta>
-       <title titleID="Letter1">Letter 1</title>
+       <title titleID="Letter1">Voyage to Paris</title>
        <date when="1955-07-13">July 13, 1955</date>
        <source>John M. Lilley Library, Penn State Behrend Archives</source>
        <summary>This letter, dated July 13, 1955, details Mary Behrend's voyage aboard the Queen Elizabeth, including departure, shipboard activities, and arrival in Paris. She describes social events, their stay at Le Bristol hotel, and a fine dinner, offering a glimpse into mid-20th-century travel.</summary>
