@@ -2,9 +2,10 @@
 <?xml-model href="LetterSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <meta>
-        <title titleID="Letter6"></title>
+        <title titleID="Letter6">Exploring Brussels</title>
+        <date when="1955-07-25">July 25, 1955></date>
         <source>John M. Lilley Library, Penn State Behrend Archives</source>
-        <summary></summary>
+        <summary>A day filled with shopping for art supplies and lace, exploring Brussels’ landmarks, and enjoying meals in the beautiful Grand Place is captured with vivid detail and a touch of humor.</summary>
         <editors>
             <editor>AMA</editor>
             <editor>MRS</editor>
@@ -13,41 +14,42 @@
  
     <letter>
         <page num="1" photo="/docs/Images/Letter6.jpg">
-            <headLine></headLine>
+            <headLine><imp type="writing">25th</imp></headLine>
+            
             <p>
-                <ln n="1"/>Monday. MerceDes busy with her work, so Gail ANd 
-                <ln n="2"/>I started ot to purchase paint thigs.   Belgian CANN 
-                <ln n="3"/>linen|anD Bockx oil colors. ENded up by getting 
-                <ln n="4"/>$62.00 worth of materials- encluding palattes, bRUSH
-                <ln n="5"/>rushes etc. Some for  gifts. Then to/Maria Roix'
-                <ln n="6"/>for lace. (Had to get some, being in Belgium.)
-                <ln n="7"/>A woman in the shop doing bobbin lace. Her fingeRS
-                <ln n="8"/>flew like mad. She would only do it when a big
-                <ln n="9"/>lot of tourists came in! Got lace &amp; a very nice laCE
-                <ln n="10"/>lace tri mmed table cloth- about $20.00 for the ALICE 
+                <ln n="1"/><date when="1955-07-25"><imp type="underline">Monday</imp></date>. <person>Merc<imp type="writing" corr="edes">eDes</imp></person> busy with her work, so <person>Gail</person> ANd 
+                <ln n="2"/>I started <imp type="crossout" corr="out">ou</imp> to purchase paint <imp type="typo" corr="things">thigs</imp>.   Belgian <imp type="writing" corr="canvas">CANVAS</imp> 
+                <ln n="3"/>linen<imp type="writing" corr=" ">|</imp>an<imp type="writing" corr="d">D</imp> <imp type="overwrite">B</imp>lockx oil colors. E<imp type="writing" corr="n">N</imp>ded  up by getting 
+                <ln n="4"/>$62.00 worth of materials- <imp type="spelling" corr="including">encluding</imp> <imp type="underline"><imp type="spelling" corr="palettes">palattes</imp></imp>, b<imp type="writing" corr="rushes">RUSHES</imp> 
+                <ln n="5"/><imp type="crossout" corr="">rushes </imp>etc. Some for <imp type="underline">gifts</imp>. Then to<imp type="writing" corr=" ">/</imp>Maria Roix' 
+                <ln n="6"/>for lace. <imp type="writing">(</imp>Had to get some, being in <location loc="Belgium">Belgium</location>.<imp type="writing">)</imp> 
+                <ln n="7"/>A woman in the shop doing bobbin lace. Her finge<imp type="writing" corr="rs">RS</imp> 
+                <ln n="8"/>flew like mad. She would <imp type="underline">only</imp> do it when a big 
+                <ln n="9"/>lot of tourists came in<imp type="writing">!</imp> Got lace <imp type="writing">&amp;</imp> <imp type="overwrite">a </imp>very nice <imp type="crossout" corr="">laCE</imp>
+                <ln n="10"/>lace <imp type="typo" corr="trimmed">tri mmed</imp> table cloth- about $20.00 for <imp type="crossout" corr="">the </imp><person><imp type="writing" corr="Alice's">ALICE'S</imp></person> 
                 <ln n="11"/>fancy country suppers- hope she'll be pleased 
-                <ln n="12"/>with it. Some lace vest affairs about $IO. each
-                <ln n="13"/>for Frances (launndessme others) Also mats at $3 w
-                <ln n="14"/>and so each.   Went across street to St Gudule
-                <ln n="15"/>church.  NOt interesting- gaudy tapestries and n
-                <ln n="16"/>not much else.We walked back- down hill somewhat.
-                <ln n="17"/>buying dolls for Johnnie on the way. Later came 
-                <ln n="18"/>M.G. and Clyde&amp; M. with her Ford.We steeted over 
-                <ln n="19"/>again to the beautifulPlace where we  sat outside
-                <ln n="20"/>in the sun and had A\very excellent meal very cheAP 
-                <ln n="21"/>All theresturants around the square seem to be
-                <ln n="22"/>good, only some more fancy than others. Some are
-                <ln n="23"/>very Flemish in style- with dark pannelling and
-                <ln n="24"/>very fine brass, pewterand blue Delft plates .Bi 
-                <ln n="25"/>brass plates and platters- all beautifullu
-                <ln n="26"/>polished. Brass door knobs. I BOUGHT TINY POTTERY BUTTER DISHES
-                <ln n="27"/>TWO ARE FOR ALICE
+                <ln n="12"/>with it. Some lace vest affairs about $IO. each 
+                <ln n="13"/>for <person>Frances</person> (<imp type="unknown" corr="and some">laundressme</imp> others) Also mats at <imp type="overwrite">$</imp>3 <imp type="unknown" corr="">w</imp>
+                <ln n="14"/>and so each.   W<imp type="writing">e</imp>nt across street to <location loc="Cathedral of St. Michael and St. Gudula, Brussels, Belgium">St Gudule 
+                <ln n="15"/>church</location>.  NOt interesting- gaudy tapestries and <imp type="crossout" corr="">n</imp>
+                <ln n="16"/>not much else.<imp type="missing" corr=" "></imp>We walked back- down hill somewhat<imp type="writing">.</imp> 
+                <ln n="17"/>buying dolls for <person>Johnnie</person> on the way. Later came 
+                <ln n="18"/><person>M.G.</person> and <person>Clyde</person>&amp; <person>M.</person> with her Ford.<imp type="missing" corr=" "></imp>We steered over 
+                <ln n="19"/>again to the beautiful<imp type="missing" corr=" "></imp><imp type="underline">Place</imp> where we  sat outside 
+                <ln n="20"/>in the sun and had <imp type="writing" corr="a"></imp><imp type="crossout">a</imp><imp type="missing" corr=" "></imp>very excellent meal very che<imp type="writing" corr="ap">AP</imp> 
+                <ln n="21"/>All the<imp type="missing" corr=" "></imp>resturants around the square <imp type="writing">seem</imp> to be 
+                <ln n="22"/>good, only some more fancy than others. Some are 
+                <ln n="23"/>very Flemish in style- with dark pannelling and 
+                <ln n="24"/>very fine brass, pewter<imp type="missing" corr=" "></imp>and blue Delft plates<imp type="typo" corr=". "> .</imp><imp type="unknown" corr="">Bi</imp>
+                <ln n="25"/>brass plates and platters- all <imp type="typo" corr="beautifully">beautifullu</imp> 
+                <ln n="26"/>polished.<imp type="missing" corr=" "></imp>Brass door knobs. <imp type="writing">I BOUGHT TINY POTTERY BUTTER DISHES 
+                <ln n="27"/>TWO ARE FOR ALICE</imp>
             </p>
              
              <p>
-                 <ln n="28"/>We had cockTAIls up|in M.G.'s room and waited sometime
-                 <ln n="29"/>for Mercedes after she finally arrived we went over
-                 <ln n="30"/>to the square where we had one last meal, andlook at /it
+                <ln n="28"/>We had co<imp type="overwrite" corr="cktai">xktai</imp>ls up<imp type="writing" corr=" ">|</imp>in <person>M.G.</person>'s room and waited sometime 
+                <ln n="29"/>for <person>Mercedes</person> after she finally arrived we <imp type="writing">w</imp>ent over 
+                <ln n="30"/>to the square where we had <imp type="underline">one</imp> <imp type="underline">last</imp> <imp type="underline">meal</imp>, and<imp type="missing" corr=" "></imp>look at <imp type="crossout" corr="">o</imp>it.
              </p>
            
              <drawing/>
